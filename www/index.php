@@ -1,3 +1,13 @@
+<?php
+define("_config_",true);
+require_once "config.php";
+
+
+
+
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,8 +36,10 @@
       <label for="check"><b>Remmember me</b></label>
 
     <button type="submit" class="btn">Login</button>
+    <p>OR</p>
+    <button type="button" class="btn" onclick="location.href='register.php'">Register</button>
   </form>
-  
+      
     </div>
 
 </body>
